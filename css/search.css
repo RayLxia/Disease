@@ -1,8 +1,5 @@
 @charset "UTF-8";
-#index-mainBody .main .main-l {
-    width: 850px;
-    border: 1px solid #E3E3E3;
-}
+
 #index-mainBody .search {
     margin-bottom: 40px;
 }

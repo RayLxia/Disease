@@ -165,7 +165,6 @@
 #index-mainBody .main-l .main-l-t .tab-1 .line {
     position: absolute;
     left: 7px;
-    right: 0;
     width: 86px;
     height: 2px;
     background-color: #d75f61;
@@ -533,6 +532,7 @@
     display: inline;
     font-size:14px;
     float: right;
+    line-height:22px;
 }
 #index-mainBody .main-l .ask-question ul {
     width:100%;
