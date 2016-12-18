@@ -2,6 +2,32 @@
  * Created by Administrator on 2016/12/16.
  */
 $(function () {
+    $(".hd-banner-cot").on("mouseenter",function () {
+        $(".jt-cot").stop().fadeIn(800);
+    });
+    $(".hd-banner-cot").on("mouseleave",function () {
+        $(".jt-cot").stop().fadeOut(800);
+    });
+    function getBannerBoxMove() {
+        return $(window).width();
+    };
+    var moveNum = 0;
+    $(".jt-fr-po").click(function () {
+        if(moveNum>1){
+            moveNum=0;
+        }else{
+            moveNum++;
+        }
+        $(".hd-banner-cot-box").stop().animate({"left":-getBannerBoxMove()*moveNum});
+    });
+    $(".jt-fl-po").click(function () {
+        if(moveNum<=0){
+            moveNum=2;
+        }else{
+            moveNum--;
+        }
+        $(".hd-banner-cot-box").stop().animate({"left":-getBannerBoxMove()*moveNum});
+    });
     $(".last-tab .f-ul li").click(function () {
         $(this).addClass("current").siblings().removeClass("current");
         $(".last-tab .s-ul").stop().animate({"top": $(this).index() * (-174)}, 800)

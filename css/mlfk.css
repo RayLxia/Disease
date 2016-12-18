@@ -257,8 +257,14 @@ li.co819e1c li {
     height: 106px;
     border: 5px solid lightblue;
     border-radius: 50%;
-    background-color: pink;
     margin: 20px auto 0 auto;
+    background: url(../images/qiepian/myc.png) no-repeat center center;
+}
+#index-mainBody .main-r .main-r-m ul li:nth-child(2) .zhuanjia {
+    background: url(../images/qiepian/srxc.png) no-repeat center center;
+}
+#index-mainBody .main-r .main-r-m ul li:nth-child(3) .zhuanjia {
+    background: url(../images/qiepian/txmc.png) no-repeat center center;
 }
 #index-mainBody .main-r .main-r-m ul li .name {
     color: #c13528;

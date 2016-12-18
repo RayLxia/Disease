@@ -28,6 +28,25 @@
 .bg6ba0c2 {
     background-color: #6ba0c2;
 }
+/*li背景*/
+.bgf385ac > a {
+    background: url(../images/qiepian/zxzx.png) no-repeat center top;
+}
+.bgf39a3c > a {
+    background: url(../images/qiepian/qqgh.png) no-repeat center top;
+}
+.bgd75f61 > a {
+    background: url(../images/qiepian/zxyy.png) no-repeat center top;
+}
+.bgdfbf38 > a {
+    background: url(../images/qiepian/zxgh.png) no-repeat center top;
+}
+.bg45beb7 > a {
+    background: url(../images/qiepian/zxzj.png) no-repeat center top;
+}
+.bg6ba0c2 > a {
+    background: url(../images/qiepian/lylx.png) no-repeat center top;
+}
 /*main right*/
 #index-mainBody .main .main-r .main-r-b,
 #index-mainBody .main .main-r .main-r-t,
@@ -52,6 +71,13 @@
     content: '';
     position: absolute;
     letter-spacing:0;
+}
+#index-mainBody .main .main-r .logo-title h3:before {
+    width: 54px;
+    height: 54px;
+    background: url(../images/qiepian/tu_5.png) no-repeat;
+    left: 20px;
+    top: 12px;
 }
 #index-mainBody .main .main-r .logo-title h3:after {
     content: 'NANJING  MARY MATERNITY HOSPITAL';
@@ -104,11 +130,10 @@
 }
 #index-mainBody .main .main-r .zixun ul li {
     margin-bottom:22px;
-    padding: 7px 7px 9px 8px;
     float: left;
     margin-left:25px;
-    width: 56px;
-    height: 56px;
+    width: 70px;
+    height: 70px;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -121,8 +146,11 @@
     color: #fff;
     font-size:14px;
     display: block;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    padding-top:40px;
+    padding-top: 45px;
+    box-sizing: border-box;
 }
 #index-mainBody .main .main-r .zixun .number {
     margin: 7px 22px 15px 25px;
