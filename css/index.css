@@ -46,13 +46,13 @@
     margin-left: 26px;
 }
 #fourUl ul li h3 {
-    text-align: center;
     border-bottom: 1px dashed #fff;
     color: #fff;
     font-size: 30px;
     padding-top: 14px;
     padding-bottom: 30px;
     position: relative;
+    padding-left: 108px;
 }
 #fourUl ul li h3:after {
     content: '';
@@ -62,19 +62,19 @@
 }
 #fourUl ul li:nth-child(1) h3:after {
     content: 'The family planning';
-    left: 75px;
+    left: 108px;
 }
 #fourUl ul li:nth-child(2) h3:after {
     content: 'Boutique gynecology';
-    left:72px;
+    left:106px;
 }
 #fourUl ul li:nth-child(3) h3:after {
     content: 'Minimally invasive';
-    left: 82px;
+    left: 115px;
 }
 #fourUl ul li:nth-child(4) h3:after {
     content: 'Warm maternity';
-    left: 88px;
+    left: 122px;
 }
 #fourUl ul li h3:before {
     content: '';
@@ -83,6 +83,18 @@
     position: absolute;
     left: 0;
     top: 0;
+}
+#fourUl ul li:nth-child(1) h3:before{
+
+}
+#fourUl ul li:nth-child(2) h3:before{
+
+}
+#fourUl ul li:nth-child(3) h3:before{
+
+}
+#fourUl ul li:nth-child(4) h3:before{
+
 }
 #fourUl ul li div {
     padding-top: 17px;
