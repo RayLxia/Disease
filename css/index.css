@@ -81,20 +81,20 @@
     width: 48px;
     height: 48px;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 40px;
+    top: 20px;
 }
-#fourUl ul li:nth-child(1) h3:before{
-
+#fourUl ul li.bgf385ac h3:before{
+    background: url(../images/qiepian/tu_1.png) no-repeat;
 }
-#fourUl ul li:nth-child(2) h3:before{
-
+#fourUl ul li.bgfcad59 h3:before{
+    background: url(../images/qiepian/tu_2.png) no-repeat;
 }
-#fourUl ul li:nth-child(3) h3:before{
-
+#fourUl ul li.bgf88c68 h3:before{
+    background: url(../images/qiepian/tu_3.png) no-repeat;
 }
-#fourUl ul li:nth-child(4) h3:before{
-
+#fourUl ul li.d75f61 h3:before{
+    background: url(../images/qiepian/tu_4.png) no-repeat;
 }
 #fourUl ul li div {
     padding-top: 17px;
@@ -318,10 +318,12 @@
     border-bottom:1px solid #f37548;
 }
 #index-mainBody .main-l .main-l-mb .tab-3 .tab-3-ul li:last-child {
-    padding-right:50px;
+    padding-right: 15px;
+    padding-left: 25px;
 }
 #index-mainBody .main-l .main-l-m .tab-2 .tab-2-ul li:last-child {
-    padding-right: 70px;
+    padding-right: 25px;
+    padding-left: 35px;
 }
 #index-mainBody .main-l .main-l-mb .tab-3 .tab-3-ul li:last-child span,
 #index-mainBody .main-l .main-l-m .tab-2 .tab-2-ul li:last-child span {
@@ -432,7 +434,7 @@
 #index-mainBody .main-l .main-l-mb .tab-3-main .next {
     content: '<';
     position: absolute;
-    bottom: 35px;
+    bottom: 40px;
     font-size: 40px;
     cursor: pointer;
     z-index: 999;
@@ -475,7 +477,6 @@
     height: 60px;
     margin-right: 17px;
     float: left;
-    border: 1px solid #E3E3E3;
 }
 .experts-info-box {
     width: 470px;
@@ -609,6 +610,7 @@
     border-top:1px dashed #727272;
     margin-top:52px;
     position: relative;
+    margin-bottom: 18px;
 }
 .friendLink .friendLink-title {
     width: 154px;

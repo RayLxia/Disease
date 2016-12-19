@@ -31,8 +31,8 @@ $(function () {
     $(".title1 li").hover(function () {
         var lineLeft = ["7px", "128px"]
         $(this).addClass("current").siblings().removeClass("current");
-        $(".tab-1 .line").stop().animate({"left": lineLeft[$(this).index()]}, 800);
-        $(".ul-box1 ul.clearfix").stop().animate({"left": -$(this).index() * $(".ul-box1 ul li").width()}, 800);
+        $(".tab-1 .line").stop().css({"left": lineLeft[$(this).index()]});
+        $(".ul-box1 ul.clearfix").stop().css({"left": -$(this).index() * $(".ul-box1 ul li").width()});
     });
     $(".lunbo-squera li").hover(function () {
         $(this).addClass("current").siblings().removeClass("current");
@@ -40,7 +40,7 @@ $(function () {
     });
     $(".tab-2-ul li").click(function () {
         $(this).addClass("current").siblings().removeClass("current");
-        $(".tab-2-ulBox > ul").stop().animate({"left": -$(this).index() * 838}, 800);
+        $(".tab-2-ulBox > ul").stop().css({"left": -$(this).index() * 838});
     });
     $(".tab-2-ul li:last-child").unbind("click");
     $("#index-mainBody .main-l .main-l-t .tab-1 .line").width($("#index-mainBody .main-l .main-l-t .tab-1 .title1 .fl").width());
@@ -51,16 +51,16 @@ $(function () {
     var index = 0;
     var speed1 = -470;
     var speed2 = -306;
-    var speed3 = -99;
+    var speed3 = -97;
 
     function getIndex() {
         return $(".tab-3-ul li.current").index();
     }
 
     function moveAnimate(index) {
-        $(".experts-info").stop().animate({"left": index * speed1}, 800);
-        $(".experts-big").stop().animate({"left": index * speed2}, 800);
-        $(".experts-small").stop().animate({"left": index * speed3}, 800);
+        $(".experts-info").stop().css({"left": index * speed1});
+        $(".experts-big").stop().css({"left": index * speed2});
+        $(".experts-small").stop().css({"left": index * speed3});
     }
 
     $(".tab-3-ul li").click(function () {
@@ -75,9 +75,9 @@ $(function () {
         if (index >= 0 && index < 10) {
             $(".tab-3-main .next").bind("click");
             $(".tab-3-ul li:nth-child(" + (index + 1) + ")").addClass("current").siblings().removeClass("current");
-            $(".experts-info").stop().animate({"left": infoDis + speed1 * (index)}, 800);
-            $(".experts-big").stop().animate({"left": bigDis + speed2 * (index)}, 800);
-            $(".experts-small").stop().animate({"left": smallDis + speed3 * (index)}, 800);
+            $(".experts-info").stop().css({"left": infoDis + speed1 * (index)});
+            $(".experts-big").stop().css({"left": bigDis + speed2 * (index)});
+            $(".experts-small").stop().css({"left": smallDis + speed3 * (index)});
         } else if (index == 9) {
             $(".tab-3-ul li:nth-child(10)").addClass("current").siblings().removeClass("current");
             $(".tab-3-main .next").unbind("click");
@@ -88,15 +88,15 @@ $(function () {
         index = getIndex() - 1;
         if(getIndex()==0 || index == 0 ){
             $(".tab-3-ul li:nth-child(1)").addClass("current").siblings().removeClass("current");
-            $(".experts-info").stop().animate({"left":0}, 800);
-            $(".experts-big").stop().animate({"left":0}, 800);
-            $(".experts-small").stop().animate({"left": 0}, 800);
+            $(".experts-info").stop().css({"left":0});
+            $(".experts-big").stop().css({"left":0});
+            $(".experts-small").stop().css({"left": 0});
         }else if (index > 0 && index < 9) {
             $(".tab-3-main .pre").bind("click");
             $(".tab-3-ul li:nth-child(" + (index+1) + ")").addClass("current").siblings().removeClass("current");
-            $(".experts-info").stop().animate({"left": infoDis + speed1*(index)}, 800);
-            $(".experts-big").stop().animate({"left": bigDis + speed2*(index)}, 800);
-            $(".experts-small").stop().animate({"left": smallDis + speed3*(index)}, 800);
+            $(".experts-info").stop().css({"left": infoDis + speed1*(index)});
+            $(".experts-big").stop().css({"left": bigDis + speed2*(index)});
+            $(".experts-small").stop().css({"left": smallDis + speed3*(index)});
         } else if (index == 0) {
             $(".tab-3-ul li:nth-child(1)").addClass("current").siblings().removeClass("current");
             $(".tab-3-main .pre").unbind("click");

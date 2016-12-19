@@ -2,6 +2,9 @@
 header {
     margin-bottom: 30px;
 }
+form {
+    position: relative;
+}
 form input:first-of-type {
     width: 426px;
     height: 19px;
@@ -16,6 +19,15 @@ form input:last-of-type {
     color: #fff;
     background-color: #5FA0F0;
 }
+label {
+    width: 25px;
+    height: 25px;
+    background: url(../images/xtb/mt-4.png) no-repeat;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
 .skip {
     font-size: 12px;
     width: 600px;
@@ -27,11 +39,16 @@ form input:last-of-type {
 }
 .searching-amount {
     background-color: #F0F0F0;
-    padding: 12px 0 12px 18px;
+    padding: 12px 0;
     border-top: 1px solid #EAEAEA;
     border-bottom: 1px solid #EAEAEA;
     font-size: 14px;
     margin-bottom: 30px;
+}
+.searching-amount p {
+    padding-left: 18px;
+    color: #BFBFBF;
+    background: url(../images/xtb/02.png) no-repeat;
 }
 .main-l {
     width: 665px;
@@ -97,9 +114,10 @@ form input:last-of-type {
     right: -15px;
 }
 .main-article p:nth-child(2) span:last-of-type {
-    margin-left: 22px;
+    margin-left: 24px;
     color: #BFBFBF;
-    padding-left: 34px;
+    padding-left: 30px;
+    background: url(../images/xtb/03.png) no-repeat center left;
 }
 
 .more-search h3 {
@@ -224,8 +242,9 @@ form input:last-of-type {
     margin-bottom: 0;
 }
 .hot-search-box li p:last-child {
-    padding-left:34px;
+    padding-left:30px;
     color: #A7A7A7;
+    background: url(../images/xtb/03.png) no-repeat center left;
 }
 
 .small-tip {

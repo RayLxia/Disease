@@ -12,7 +12,7 @@
     color: #d75f61;
     padding-left:10px;
 }
-#index-mainBody .search-r input:nth-child(1) {
+#index-mainBody .search-r input[type="text"] {
     width: 203px;
     border: 1px solid #a6a6a6;
     border-right: none;
@@ -22,9 +22,10 @@
     padding-bottom:8px;
     margin-right: -5px;
 }
-#index-mainBody .search-r input:nth-child(2) {
+#index-mainBody .search-r input[type="submit"] {
     padding: 9px 15px 8px 28px;
     font-size:16px;
     background-color: #f37548;
     color: #fff;
+    cursor: pointer;
 }

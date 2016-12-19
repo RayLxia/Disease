@@ -128,6 +128,13 @@ li.co819e1c li {
     color: #717171;
     margin-bottom: 10px;
 }
+#index-mainBody .main-l .main-l-t .tab-1:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: url(../images/xtb/04.png) no-repeat;
+}
 #index-mainBody .main-l .main-l-t .tab-1 .title1 {
     position: relative;
     border-bottom: 2px solid #d1d1d1;
@@ -147,7 +154,7 @@ li.co819e1c li {
     color: #c13528;
 }
 #index-mainBody .main-l .main-l-t .tab-1 .title1 .fl {
-    padding-left: 30px;
+    padding-left: 36px;
 }
 #index-mainBody .main-l .main-l-t .tab-1 .line {
     position: absolute;
@@ -240,41 +247,47 @@ li.co819e1c li {
     width: 325px;
     position: relative;
     overflow: hidden;
+    background: url(../images/xtb/08.png) no-repeat center 15px;
 }
-#index-mainBody .main-r .main-r-m ul {
-    width: 1000%;
-    height: 100%;
+#index-mainBody .main-r .main-r-m .zhuanjia-box {
+    width: 110px;
+    height: 110px;
     position: relative;
-}
-#index-mainBody .main-r .main-r-m ul li {
-    width: 325px;
-    float: left;
-    height: 100%;
-    box-sizing: border-box;
-}
-#index-mainBody .main-r .main-r-m ul li .zhuanjia {
-    width: 106px;
-    height: 106px;
-    border: 5px solid lightblue;
+    border: 5px solid #fff;
     border-radius: 50%;
     margin: 20px auto 0 auto;
-    background: url(../images/qiepian/myc.png) no-repeat center center;
+    overflow: hidden;
 }
-#index-mainBody .main-r .main-r-m ul li:nth-child(2) .zhuanjia {
-    background: url(../images/qiepian/srxc.png) no-repeat center center;
+
+#index-mainBody .main-r .main-r-m .zhuanjia-box ul {
+    width: 1000%;
+    height: 100%;
+    position: absolute;
+    left: -4px;
+    top: -5px;
 }
-#index-mainBody .main-r .main-r-m ul li:nth-child(3) .zhuanjia {
-    background: url(../images/qiepian/txmc.png) no-repeat center center;
+#index-mainBody .main-r .main-r-m .zhuanjia-box ul li {
+    width: 118px;
+    height: 118px;
+    float: left;
 }
-#index-mainBody .main-r .main-r-m ul li .name {
+#index-mainBody .main-r .main-r-m .zhuanjia-content {
+    position: relative;
+    width: 1000%;
+}
+#index-mainBody .main-r .main-r-m .zhuanjia-content li {
+    float: left;
+    width: 325px;
+}
+#index-mainBody .main-r .main-r-m .zhuanjia-content li .name {
     color: #c13528;
     font-size: 18px;
     margin-top: 20px;
 }
-#index-mainBody .main-r .main-r-m ul li .name span {
+#index-mainBody .main-r .main-r-m .zhuanjia-content li .name span {
     margin-left: 100px;
 }
-#index-mainBody .main-r .main-r-m ul li .name a {
+#index-mainBody .main-r .main-r-m .zhuanjia-content li .name a {
     display: inline;
     font-size: 15px;
     color: #fff;
@@ -284,7 +297,7 @@ li.co819e1c li {
     letter-spacing: 10px;
     margin-right: 70px;
 }
-#index-mainBody .main-r .main-r-m ul li p {
+#index-mainBody .main-r .main-r-m .zhuanjia-content li p {
     text-indent: 2em;
     line-height: 32px;
     margin-top: 20px;
@@ -292,7 +305,7 @@ li.co819e1c li {
     color: #474747;
     font-size: 14px;
 }
-#index-mainBody .main-r .main-r-m ul li p a {
+#index-mainBody .main-r .main-r-m .zhuanjia-content li p a {
     display: inline;
     color: #d70303;
 }
