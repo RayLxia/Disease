@@ -18,6 +18,25 @@
     background-color: #d4d4d4;
     color: #fff;
     cursor: pointer;
+    position: relative;
+}
+#index-mainBody .last-tab .f-ul li:before {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 10px;
+    top: 5px;
+}
+#index-mainBody .last-tab .f-ul li:nth-child(1):before {
+    background: url(../images/xtb/hos-hj.png) no-repeat;
+}
+#index-mainBody .last-tab .f-ul li:nth-child(2):before {
+    background: url(../images/xtb/xj-sb.png) no-repeat;
+    top: 8px;
+}
+#index-mainBody .last-tab .f-ul li:nth-child(3):before {
+    background: url(../images/xtb/hd.png) no-repeat;
 }
 #index-mainBody .last-tab .f-ul li.current {
     background-color: #f37548;
